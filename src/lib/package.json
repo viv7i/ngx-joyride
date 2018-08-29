@@ -1,16 +1,16 @@
 {
-  "name": "ngx-joyride",
-  "version": "2.1.1",
-  "description": "Angular Joyride Library",
+  "name": "ngx-joyride-plus",
+  "version": "2.2.0",
+  "description": "Angular Joyride/Tour Library",
   "main": "./bundles/ngx-joyride.umd.js",
   "jsnext:main": "./esm5/ngx-joyride.esm.js",
   "module": "./esm5/ngx-joyride.esm.js",
   "es2015": "./esm2015/ngx-joyride.esm2015.js",
   "typings": "./joyride.d.ts",
-  "author": "Nicola Tommasi",
+  "author": "Vivek Sharma",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tnicola/ngx-joyride"
+    "url": "https://github.com/viv7i/ngx-joyride-plus"
   },
   "license": "MIT",
   "keywords": [
