@@ -10,7 +10,8 @@ export class PageAComponent { }
 
 @Component({
     selector: 'sel-b',
-    template: '<div joyrideStep="myStep2">Route B</div>'
+    template:`<div joyrideStep="myStep2" [stepContent]="somecontent" [stepContentParams]="somecontentparams">Route B</div>
+    <ng-template #somecontent let-name="name">Hello {{name}} from dynamic template</ng-template>`
 })
 export class PageBComponent { }
 
